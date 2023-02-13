@@ -1,0 +1,269 @@
+body{
+    cursor: url(./newone.png),default;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.splitleft{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.8;
+
+}
+.splitright{
+    width: 100%;
+    height: 100%;
+    background-color: #F1E6E6;
+    position: fixed;
+    
+}
+.title p{
+    color: white;
+    font-family: "Brush Script MT";
+    font-size: 50px;
+    transform: translate(10px,10px);
+}
+.one{
+    width: 90px;
+    transform: translate(190px,-70px);
+}
+.vacc{
+    
+    transform: translate(50px,-70px);
+    width: 400px
+    
+}
+p.caption{
+    font-size: 30px;
+    
+    transform: translate(50px,-110px);
+    width: 50%;
+    
+}
+button{
+    color: white;
+    background-color: red;
+    width: fit-content;
+    padding: 5px;
+    
+    
+}  
+.rg_btn{
+    font-size: 20px;
+    transform: translate(230px,30px);
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.rg_btn:hover{
+    
+    transform: translate(220px,30px);
+    
+}
+ul{
+display: flex;
+color:black;
+transform: translate(500px,-30px);
+list-style-type: none;
+margin: auto;
+}
+li{
+    
+    margin: 3rem;
+    
+}
+li:hover{
+    color: red;
+}
+.cards{
+   transform: translate(540px,-50px);
+   width: 750px;
+   height: 420px;
+   display: grid;
+   grid-template-columns:33.33% 33.33% 33.33% ;
+   grid-template-columns: 33.33% 33.33% 33.33%;
+   position: relative;
+   grid-gap: 10px;
+   padding: 3px;
+}
+.card1{
+    background-image: url(./WhatsApp_Image_2023-01-21_at_7.48.16_PM__11_-removebg-preview.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;  
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.card2{
+    background-image: url(./WhatsApp_Image_2023-01-21_at_7.48.16_PM__5_-removebg-preview.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;  
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.card3{
+    background-image: url(./WhatsApp_Image_2023-01-21_at_7.48.16_PM__6_-removebg-preview.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;  
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.card4{
+    background-image: url(./WhatsApp_Image_2023-01-21_at_7.48.16_PM__7_-removebg-preview.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;  
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.card5{
+    background-image: url(./WhatsApp_Image_2023-01-21_at_7.48.16_PM__8_-removebg-preview.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;  
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.card6{
+    background-image: url(./WhatsApp_Image_2023-01-21_at_7.48.16_PM__9_-removebg-preview.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid red;  
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+.card1:hover{
+    transform: translateY(-10px);
+    box-shadow: -6px -6px 8px -1px rgba(0,0,0,0.81);
+}
+.card2:hover{
+    transform: translateY(-10px);
+    box-shadow: -6px -6px 8px -1px rgba(0,0,0,0.81);
+}
+.card3:hover{
+    transform: translateY(-10px);
+    box-shadow: -6px -6px 8px -1px rgba(0,0,0,0.81);
+}
+.card4:hover{
+    transform: translateY(10px);
+    box-shadow: -8px 9px 6px -1px rgba(0,0,0,0.84);
+}
+.card5:hover{
+    transform: translateY(10px);
+    box-shadow: -8px 9px 6px -1px rgba(0,0,0,0.84);
+}
+.card6:hover{
+    transform: translateY(10px);
+    box-shadow: -8px 9px 6px -1px rgba(0,0,0,0.84);
+}
+p.y{
+    width: 150px;
+    transform: translate(550px,-35px);
+    font-family: "Brush Script MT";
+    font-size: 20px;
+    font-weight: bold;   
+}
+.shield{
+    background-image: url(./WhatsApp_Image_2023-01-21_at_7.48.16_PM__3_-removebg-preview.png);
+    width: 40px;
+    height: 40px;
+    transform: translate(640px,-40px);
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 120px;
+}
+.para{
+    transform: translate(3px,38px);
+    font-size: 12px;
+    width: 70px;
+}
+p.socio{
+    transform: translate(550px,38px);
+}
+.media{
+    background-repeat: no-repeat;
+    transform: translate(660px,16px);
+    display: flex;
+    margin-right: 10x;
+}
+.insta{
+    margin-right: 10px;
+    width: 29px;
+    height: 29px;
+    transform: translate(5px,-3px);
+   
+    transition: 0.4s ease-in-out;
+    
+}  
+.wtsp{
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+   
+    transition: 0.4s ease-in-out;
+    
+}  
+.twitter{
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+   
+    transition: 0.4s ease-in-out;
+    
+}  
+.fb{
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+   
+    transition: 0.4s ease-in-out;
+    
+}  
+.covidimg{
+width: 380px;
+height: 100%;
+transform: translate(400px,-100px);
+cursor: not-allowed;
+}
+.fb:hover{
+    transform: scale(0.8);
+    cursor: hide;
+}
+.twitter:hover{
+    transform: scale(0.8);
+    cursor: hide;
+}
+.insta:hover{
+    transform: scale(0.8);
+    cursor: hide;
+}
+.wtsp:hover{
+    transform: scale(0.8);
+    cursor: hide;
+}  
+    
