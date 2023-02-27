@@ -265,44 +265,48 @@ cursor: not-allowed;
 .wtsp:hover{
     transform: scale(0.8);
     cursor: hide;
-}  
-@media screen and (max-width:400px) {
+}
+@media screen and (max-width:1400px) {
     .title p{
         color: white;
         font-family: "Brush Script MT";
-        font-size: 20px;
+        font-size: 40px;
         
     }
     .splitleft{
         width: 100%;
-        height: 100%;
+        height: 50%;
         background-color: white;
-       
-        z-index: 1;
         background-color: black;
         opacity: 0.8;
     
     } 
+    .splitright{
+       width: 100%; 
+       height: 50%;
+       transform: translateY(100%);
+       background-color: pink;
+    }
     .one
     {
-        width: 50px;
-        transform: translate(85px,-27px);
+        width: 70px;
+        transform: translate(160px,-50px);
     }
     .vacc{
     
-        transform: translate(50px,-17px);
-        height: 450px;
-        width: 300px   
+        transform: translate(200px,-17px);
+        height: 800px;
+        width: 700px   
     }
     p.caption{
-        font-size: 30px;
-        transform: translate(50px,-50px);
+        font-size: 50px;
+        transform: translate(190px,-25px);
         width: 60%;
         
     }
     .rg_btn{
-        font-size: 20px;
-        transform: translate(230px,80px);
+        font-size: 30px;
+        transform: translate(480px,150px);
         border: 2px solid transparent;
         border-radius: 15px;
         cursor: pointer;
@@ -310,7 +314,92 @@ cursor: not-allowed;
     }
     .rg_btn:hover{
         
-        transform: translate(220px,80px);
+        transform: translate(470px,150px);
         
     }
-}    
+    .cards{
+        margin-top: 20px;
+        transform: translate(60px,-50px);
+        width: 900px;
+        height: 500px;
+        display: grid;
+        grid-template-columns:33.33% 33.33% 33.33% ;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-gap: 28px;
+        padding: 3px;
+     }
+     p.y{
+        width: 200px;
+        margin-top: 10px;
+        transform: translate(85px,-5px);
+        font-family: "Brush Script MT";
+        font-size: 30px;
+        font-weight: bold;   
+    }
+    .shield{
+        background-image: url(./shield\ logo.png);
+        width: 100px;
+        height: 100px;
+        transform: translate(190px,20px);
+        background-position: center;
+        background-size: cover;
+        display: inline-table;
+        margin-right: 120px;
+    }
+    .para{
+        transform: translate(15px,108px);
+        font-size: 20px;
+        width: 90px;
+    }
+    p.socio{
+        transform: translate(250px,330px);
+        font-size: 25px;
+    }
+    .media{
+        background-repeat: no-repeat;
+        transform: translate(420px,290px);
+        display: flex;
+        margin-right: 30x;
+        
+    }
+    .wtsp
+    {
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+        transition: 0.4s ease-in-out;
+    }  
+    .twitter{
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+        transition: 0.4s ease-in-out;
+    }  
+    .fb{
+        margin-right: 15px;
+        width: 35px;
+        height: 35px;
+        transition: 0.4s ease-in-out;
+    } 
+    #bomma{
+        width: 100%;
+        height: 100%;
+        transform: translate(60px,-250px);
+    }
+    ul
+    {
+        display: flex;
+        z-index: 10;
+        color:black;
+        transform: translate(65px,-26px);
+        list-style-type: none;
+        margin: auto;
+    }
+    li
+    {
+        z-index: 10;
+        margin: 3rem;
+        font-size: 20px;
+    }
+        
+}
